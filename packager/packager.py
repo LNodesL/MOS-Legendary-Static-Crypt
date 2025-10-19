@@ -75,8 +75,8 @@ def main():
     parser.add_argument("executable", help="Path to the executable file to package")
     parser.add_argument("-o", "--output", default="../runtime/software.h", 
                        help="Output header file path (default: ../runtime/software.h)")
-    parser.add_argument("-p", "--password", default="mos-legendary-crypt-2024", 
-                       help="Encryption password (default: mos-legendary-crypt-2024)")
+    parser.add_argument("-p", "--password", default="mos-legendary-crypt-2025", 
+                       help="Encryption password (default: mos-legendary-crypt-2025)")
     
     args = parser.parse_args()
     
