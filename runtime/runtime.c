@@ -44,7 +44,7 @@ int execute_embedded_binary() {
     unsigned char* decrypted_data = NULL;
     size_t decrypted_size = 0;
     
-    const char* password = "mos-legendary-crypt-2024";
+    const char* password = "mos-legendary-crypt-2025";
     
     if (!decrypt_data(software_bytes, software_size, password, &decrypted_data, &decrypted_size)) {
         printf("Runtime: Decryption failed!\n");
